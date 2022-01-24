@@ -1,0 +1,17 @@
+name: penny test workflow
+
+on:
+  [push]
+
+jobs:
+  build:
+    name: Run penny test assignment tests
+    runs-on: ubuntu-latest
+  
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: install testcafe and run test
+        uses: DevExpress/testcafe-action@latest
+        with:
+          args: "chrome test"
