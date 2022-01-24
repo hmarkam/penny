@@ -20,7 +20,7 @@ class RegistrationPage{
         this.registrationPagePassword = Selector('#Password')                                   //Web Element: Password Text Field
         this.registrationPageConfirmPassword = Selector('#ConfirmPassword')                     //Web Element: Confirm Password Text Field
         this.registrationPageRegisterButton = Selector('#register-button')                      //Web Element: Register button
-        this.registrationPageSucessMsg = Selector('div.result').withText('Your registration completed')  //Web Element: Registration Sucess Message
+        this.registrationPageSucessMsg = Selector('div.result')                                 //Web Element: Registration Sucess Message
        
     }
 

@@ -8,8 +8,8 @@ import { Selector, t } from "testcafe";
 class LoggedInPage{
     constructor(){
 
-        this.loggedInPageMyAccountLink = Selector('a').withText('My account')      //Web Element: My Account link
-        this.loggedInPageLogOutLink = Selector('a').withText('Log out')            //Web Element: Logout link
+        this.loggedInPageMyAccountLink = Selector("a[class='ico-account']")     //Web Element: My Account link
+        this.loggedInPageLogOutLink = Selector("a[class='ico-logout']")            //Web Element: Logout link
         
     }
 }
