@@ -31,10 +31,6 @@
             "password": "@123Password"
         },
         {
-            "email": "test@testcom",
-            "password": "@123Password"
-        },
-        {
             "email": "test@test.",
             "password": "@123Password"
         }

@@ -65,7 +65,7 @@ test('Verify Home Page', async t =>{
  * Test to verify login feature with invalid user email format and correct password.
  */
  jsonTestDataObj.InvalidEMailFormat.forEach((testData) =>{
-    test('Verify scenarios for incorrect email format', async t =>{
+    test.only('Verify scenarios for incorrect email format', async t =>{
         await t
             .wait(1000)
             .setTestSpeed(0.1)
