@@ -1,0 +1,42 @@
+{
+    "InvalidEmailPassword": [
+        {
+            "email": "invalidEmail@test.com",
+            "password": "@123Password"
+        },
+        {
+            "email": "test@test.com",
+            "password": "InvalidPasswordTest"
+        },
+        {
+            "email": "invalidEmail@test.com",
+            "password": "InvalidPasswordTest"
+        },
+        {
+            "email": "test@test.co",
+            "password": "@123Password"
+        }
+    ],
+    "InvalidEMailFormat": [
+        {
+            "email": "invalidemailformat",
+            "password": "@123Password"
+        },
+        {
+            "email": "@test.com",
+            "password": "@123Password"
+        },
+        {
+            "email": "testtest.com",
+            "password": "@123Password"
+        },
+        {
+            "email": "test@testcom",
+            "password": "@123Password"
+        },
+        {
+            "email": "test@test.",
+            "password": "@123Password"
+        }
+    ]
+}
