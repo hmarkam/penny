@@ -1,0 +1,16 @@
+{
+  "name": "penny",
+  "version": "1.0.0",
+  "description": "Automation framwork assignment from penny",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe"
+  },
+  "author": "himanshu markam",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "nanoid": "^3.2.0",
+    "testcafe": "^1.18.2"
+  }
+}
